@@ -10,3 +10,5 @@ The image below shows a graph for multiple linear regression.
 
 ![Image](3d-multiple.png)
 
+The image below shows the logistic regression neural network.
+![Image](![Image](3d-multiple.png))
