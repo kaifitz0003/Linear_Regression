@@ -21,7 +21,7 @@ optimizer = torch.optim.SGD(model.parameters(), lr=1e-4)
 for epoch in range (5000):
   #print(epoch)
   for i in range (len(X_train)):
-    out = model(X_train[i])
+    out = model(X_train[i]) # Pick the i-th row. Also the same as X_train[i,:]
     loss = lossfn(out, y_train[i])
     loss.backward()
     optimizer.step()
