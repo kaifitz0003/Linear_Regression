@@ -12,3 +12,9 @@ The image below shows a graph for multiple linear regression.
 
 The image below shows the logistic regression neural network.
 ![Image](LogisticRegressionNetwork.png)
+
+Note: All Regression problems end with a nn.Linear layer.
+
+All Regression problems use MSE loss. 
+
+**Logistic Regression is classification, not regression!!!**
